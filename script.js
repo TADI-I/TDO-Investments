@@ -38,3 +38,7 @@ function setActiveLink(){
 
 window.addEventListener('scroll', setActiveLink);
 window.addEventListener('load', setActiveLink);
+
+
+document.getElementById("copyright").textContent =
+    `© ${new Date().getFullYear()} Tshidiso Wheel and Tyre. All rights reserved.`;
